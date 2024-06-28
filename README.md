@@ -6,6 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+Figma [link](https://www.figma.com/file/Tf6JBUW6Ib5thLtNudypRi/MAYA-~5000-9000?node-id=0%3A1)
+
 ### `npm start`
 
 Runs the app in the development mode.\

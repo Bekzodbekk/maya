@@ -1,0 +1,28 @@
+@import "../../varmix";
+
+.question{
+    background-image: url("../Assets/questionBackground.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 60px 0;
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        
+        .question-title{
+            & > *{
+                color: $black;
+                margin: 20px 0;
+            }
+        }
+
+        .question-btn{
+            margin-top: 35px;
+        }
+    }
+}

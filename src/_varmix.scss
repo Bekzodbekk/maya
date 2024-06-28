@@ -1,0 +1,18 @@
+$white_opacity: #FFFFFF33;
+$black: #4D4D4D;
+$darkpink: #BF7691;
+$pink: #F8EFF2;
+
+
+@mixin Title {
+    margin-bottom: 114px;
+    h1{
+        font: {
+            size: 40px;
+            weight: 300;
+        }
+    
+        ;
+        color: $black;
+    }
+}

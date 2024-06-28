@@ -1,0 +1,32 @@
+@import "../../varmix";
+
+.kupon{
+    background-image: url("../Assets/kuponBackground.png");
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .kupon-title{
+        text-align: center;
+        padding: 60px 0;
+        width: 60%;
+
+        h1{
+            color: $black;
+            font-weight: 300;
+            line-height: 50px;
+
+            span{
+                color: #000;
+                font-weight: 500;
+            }
+        }
+        button{
+            margin-top: 50px;
+        }
+    }
+
+}

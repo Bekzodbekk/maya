@@ -1,0 +1,19 @@
+@import "../../../varmix";
+
+.button{
+    padding: 20px 40px;
+    background: $darkpink;
+    border-radius: 10px;
+    border: 1px solid $darkpink;
+    transition: .1s linear;
+    cursor: pointer;
+    
+    &:hover{
+        background-color: transparent;
+        color: $darkpink;
+    }
+    font: {
+        size: 16px;
+        weight: 500;
+    };
+}

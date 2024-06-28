@@ -1,0 +1,68 @@
+@import "../../varmix";
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin-top: 40px;
+    width: 100%;
+
+    ul {
+        display: flex;
+        gap: 40px;
+
+        li {
+            list-style-type: none;
+
+            a {
+                text-decoration: none;
+
+                font: {
+                    size: 20px;
+                    weight: 400;
+                }
+
+                ;
+            }
+        }
+    }
+
+    .nav-callcenter {
+        display: flex;
+        align-items: center;
+
+        h1 {
+            font: {
+                size: 24px;
+                weight: 500;
+            }
+
+            margin-left: 18px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1062px) {
+    .home .container ul {
+            gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 842px) {
+    .home .container ul {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 561px) {
+    .home .container .nav-callcenter h1 {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 488px) {
+    .home .container .nav-callcenter img {
+        display: none;
+    }
+}

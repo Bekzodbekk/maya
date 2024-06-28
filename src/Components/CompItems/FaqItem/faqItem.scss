@@ -1,0 +1,56 @@
+@import "../../../varmix";
+
+.faq-item {
+    max-height: 85px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 20px 50px;
+    cursor: pointer;
+    transition: max-height 1s ease-in-out;
+    border-radius: 10px;
+    
+
+    .faq-info-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        span{
+            font-size: 40px;
+            transition: transform .3s ease-in-out;
+        }
+
+
+        &>* {
+            color: $black;
+        }
+    }
+
+    .faq-info{
+        h1{
+            color: #818181;
+            font-size: 15px;
+            line-height: 20px;
+        }
+    }
+}
+
+.expended{
+    max-height: 1000px;
+}
+
+@media only screen and (max-width: 662px){
+    .faq-item{
+        .faq-info-title{
+            h1{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 504px){
+    .faq-item{
+        padding: 20px 10px;
+    }
+}
